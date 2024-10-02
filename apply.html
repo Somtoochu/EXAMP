@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        body{margin: 20px;}
+        form{
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px ;
+            border-radius: 5px;
+            padding: 100;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h2>APPLICATION FORM</h2>
+    <h3>Fill and submit the form below to apply for a calculator</h3>
+    <form action="submit.html">
+
+    <label for=" Name"> NAME</label>
+    <input type="text" placeholder="write your name" required>
+    <br>
+    
+    <label for=" class"> CLASS</label>
+    <select name="options" id="options">
+        <option value="SS1">SS1</option>
+        <option value="SS2">SS2</option>
+        <option value="SS3">SS3</option>
+        <option value="NONE">NONE</option>
+    </select>
+    <br>
+
+    <label for="gender">GENDER:</label>
+    <input type="radio">
+    <label for="male">MALE</label>
+    <input type="radio">
+    <label for="female">FEMALE</label>
+    <br>
+
+    <label for="why do need a calculator">WHY DO YOU NEED A CALCULATOR</label>
+    <br>
+    <textarea name="message" id="Message" ></textarea>
+    <br>
+    <button>SUBMIT</button>
+</form>
+</center>
+</body>
+</html>
